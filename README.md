@@ -3,7 +3,7 @@
 
  # Project Overview
 
-This is a React.js application with Login and Sign-up functionality using any email and password,  # Enter Any Email and Password  to Login . After authentication, users are redirected to a Dashboard. The project utilizes Tailwind CSS for UI styling.
+This is a React.js application with Login and Sign-up functionality using any email and password,   Enter Any Email and Password  to Login . After authentication, users are redirected to a Dashboard. The project utilizes Tailwind CSS for UI styling.
 
  # Setup Instructions
 
@@ -15,7 +15,7 @@ Node.js (LTS recommended)
 
 npm 
 
-🔧 Installation Steps
+# Installation Steps
 
 # Clone the Repository
 ```
@@ -25,9 +25,7 @@ cd intern-task
 
 # Install Dependencies
 ```
-
 npm install
-
 ```
 
 # Run the Development Server
@@ -38,8 +36,9 @@ npm run dev
 The app will be available at http://localhost:5173/ (or another available port).
 
 # Build the Project
-
+```
 npm run build
+```
 
 # Preview the Build
 ```
