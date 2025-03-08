@@ -1,7 +1,7 @@
 import { FaPlus, FaTshirt, FaSearch, FaMagic, FaTrash, FaUpload, FaCog, FaBars } from "react-icons/fa";
 import { useState } from "react";
 import Tshirt from "../assets/Tshirt.png";
-import Sweater from "../assets/Sweater.png";
+import Sweater from "../assets/sweater.png";
 import Brown from "../assets/Brown.png";
 import Logo from "../assets/Logo.png";
 
