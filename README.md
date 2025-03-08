@@ -13,7 +13,7 @@ Ensure you have the following installed on your system:
 
 Node.js (LTS recommended)
 
-npm or yarn
+npm 
 
 🔧 Installation Steps
 
@@ -42,12 +42,13 @@ The app will be available at http://localhost:5173/ (or another available port).
 npm run build
 
 # Preview the Build
-
+```
 npm run preview
 
 Lint the Code (Optional)
 
 npm run lint
+```
 
 # Dependencies
 
