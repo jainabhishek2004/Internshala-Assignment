@@ -1,7 +1,7 @@
 
- Intern Task
+ 
 
-📌 Project Overview
+ # Project Overview
 
 This is a React.js application with Login and Sign-up functionality using any email and password. After authentication, users are redirected to a Dashboard. The project utilizes Tailwind CSS for UI styling.
 
@@ -23,12 +23,11 @@ git clone <repository_url>
 cd intern-task
 
 Install Dependencies
+```
 
 npm install
 
-or
-
-yarn install
+```
 
 Run the Development Server
 
