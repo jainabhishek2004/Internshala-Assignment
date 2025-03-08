@@ -13,7 +13,7 @@ export default function HeroSection() {
       <div className="max-w-6xl w-full flex flex-col md:flex-row items-center gap-12">
         {/* Left Side: Text Content */}
         <div className="md:w-1/2 text-center md:text-left mt-32 sm:-mt-6">
-          <span className="bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-sm font-medium mr-38">
+          <span className="bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-sm font-medium ">
             DELIVER YOUR IDEAS FASTER
           </span>
           <h1 className="text-5xl font-extrabold text-gray-900 mt-4 leading-tight text-left">
