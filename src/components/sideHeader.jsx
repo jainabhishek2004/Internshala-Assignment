@@ -6,7 +6,7 @@ const SiteHeader = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <section className="SiteHeader absolute z-50 w-full">
+    <section className="SiteHeader absolute z-50 w-full ">
       <div className="flex items-center justify-between px-8 py-5">
         {/* Logo and Navigation Links */}
         <div className="w-auto">
@@ -137,10 +137,11 @@ const SiteHeader = () => {
               </div>
               {/* Mobile Menu Links */}
              {/* Mobile Menu Links */}
-<ul className="mt-10 flex flex-col items-center space-y-6 ml-12">
-  {["Tools", "Explore", "Stock", "Pricing", "Blog", "Contact"].map(
-    (item, index) => (
-      <li
+             <div className="flex justify-center items-center w-full">
+             <ul className="mt-10 flex flex-col items-center justify-center space-y-6">
+           {["Tools", "Explore", "Stock", "Pricing", "Blog", "Contact"].map(
+            (item, index) => (
+            <li
         key={index}
         className="w-full text-center py-3  transition duration-300 hover:bg-gray-200 "
       >
@@ -148,9 +149,13 @@ const SiteHeader = () => {
           {item}
         </Link>
       </li>
+
+            
+             
     )
   )}
 </ul>
+</div>
 
 
               {/* Mobile Authentication Buttons */}
