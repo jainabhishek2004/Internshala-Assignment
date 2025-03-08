@@ -136,15 +136,22 @@ const SiteHeader = () => {
                 </div>
               </div>
               {/* Mobile Menu Links */}
-              <ul className="mt-10">
-                {["Tools", "Explore", "Stock", "Pricing", "Blog", "Contact"].map(
-                  (item, index) => (
-                    <li key={index} className="space-y-8" >
-                     <Link to="/login">{item}</Link>
-                    </li>
-                  )
-                )}
-              </ul>
+             {/* Mobile Menu Links */}
+<ul className="mt-10 flex flex-col items-center space-y-6 ml-12">
+  {["Tools", "Explore", "Stock", "Pricing", "Blog", "Contact"].map(
+    (item, index) => (
+      <li
+        key={index}
+        className="w-full text-center py-3  transition duration-300 hover:bg-gray-200 "
+      >
+        <Link to="/login" className="block w-full text-gray-800 font-semibold text-lg">
+          {item}
+        </Link>
+      </li>
+    )
+  )}
+</ul>
+
 
               {/* Mobile Authentication Buttons */}
               <div className="flex w-full flex-col justify-end mt-6">
